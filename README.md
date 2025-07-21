@@ -27,7 +27,7 @@ This course covers practical, real-world topics used by developers in the indust
 - Intro to GitHub Actions
 - Writing workflows for automated testing & deployment
 - Using GitHub Secrets and environment variables
-
+- We work Accordingly with the DataBase
 ---
 
 ##  Folder Structure
