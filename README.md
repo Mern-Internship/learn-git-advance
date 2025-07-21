@@ -4,7 +4,7 @@ Welcome to the **Advanced Git & GitHub** course repo! This repository is designe
 
 -----
 
-## What You'll Learn
+## What You'll Learn  
 
 This course covers practical, real-world topics used by developers in the industry, including:
 
@@ -18,7 +18,7 @@ This course covers practical, real-world topics used by developers in the indust
 
 ### GitHub Collaboration Strategies
 - Pull Request best practices
-- Branching strategies (Feature Branch, Git Flow, Trunk-Based)
+- Branching strategies (Feature Branch, Git Flow, Trunk-Based)       
 - Code review workflows
 - Protecting main branch
 - Resolving merge conflicts
