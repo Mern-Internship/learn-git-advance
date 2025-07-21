@@ -1,6 +1,6 @@
 # Advanced Git & GitHub Course Repository
 
-Welcome to the **Advanced Git & GitHub** course repo! This repository is designed for students and professionals who already understand basic Git concepts and want to deepen their knowledge of version control and team collaboration using Git and GitHub.
+Welcome to the **Advanced Git & GitHub** course repo! This repository is designed for students and professional who already understand basic Git concepts and want to deepen their knowledge of version control and team collaboration using Git and GitHub.
 
 -----
 
