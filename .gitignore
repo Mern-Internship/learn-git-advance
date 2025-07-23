@@ -7,6 +7,7 @@ pawan1.txt
 =======
 sanjaylearning.txt
 .gitignore
+<<<<<<< HEAD
 >>>>>>> 6a45c552de62112b4469e35cebd62a8200c6f51f
 =======
 sanjaylearning.txt
@@ -14,3 +15,6 @@ sanjaylearning.txt
 >>>>>>> 6a45c552de62112b4469e35cebd62a8200c6f51f
 pawan.cpp
 
+=======
+.vscode
+>>>>>>> 8480481de9876ee33e71a0e5a16915d3ccd374d0
