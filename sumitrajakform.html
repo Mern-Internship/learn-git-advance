@@ -1,67 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Simple Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WAP Style Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      padding: 20px;
+    }
 
-        .form-container {
-            width: 400px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
+    .form-container {
+      background-color: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
 
-        h2 {
-            text-align: center;
-            color: #333;
-        }
+    .form-container h2 {
+      text-align: center;
+      color: #333;
+    }
 
-        label {
-            display: block;
-            margin-top: 15px;
-            font-weight: bold;
-        }
+    input[type="text"],
+    input[type="tel"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
 
-        input, textarea, select {
-            width: 100%;
-            padding: 10px;
-            margin-top: 5px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-        }
+    textarea {
+      resize: vertical;
+    }
 
-        button {
-            width: 100%;
-            margin-top: 20px;
-            padding: 12px;
-            background-color: #4CAF50;
-            color: white;
-            font-size: 16px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        }
+    button {
+      width: 100%;
+      padding: 10px;
+      margin-top: 15px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
 
-        button:hover {
-            background-color: #45a049;
-        }
-    </style>
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
 
-<div class="form-container">
-    <h2>Registration Form</h2>
+  <div class="form-container">
+    <h2>Contact Us</h2>
     <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email" required>
+      <label for="mobile">Mobile No.:</label>
+      <input type="tel" id="mobile" name="mobile" placeholder="Enter your number" required>
 
-        <label for="password">Password:</label>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" placeholder="Type your message" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+</body>
+</html>
